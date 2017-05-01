@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <com.simple.PasswordView
+        android:id="@+id/passwordview"
+        android:layout_width="match_parent"
+        android:layout_height="105px"
+        android:layout_marginTop="100px"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:inputType="number"
+        android:cursorVisible="false"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:enabled="true"
+        android:clickable="true"
+        />
+    <Button
+        android:id="@+id/btn_pass_reset"
+        android:layout_width="250px"
+        android:layout_height="90px"
+        android:text="重置"
+        android:layout_below="@id/passwordview"
+        android:layout_marginTop="20px"
+        android:layout_marginLeft="40px"
+        android:gravity="center"
+        />
+</RelativeLayout>
